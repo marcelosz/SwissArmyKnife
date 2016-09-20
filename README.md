@@ -1,5 +1,5 @@
-# VictoryNOX
-The swiss army knife for InfoSec people!
+# SwissArmyKnife
+Victorinox for IT people!
 
 ### List of tools (more tools coming soon!): ###
 
