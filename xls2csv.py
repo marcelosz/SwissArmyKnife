@@ -66,7 +66,7 @@ def xls2csv(infile, outfile, columns_par, delimiter_par):
     n_total_rows = sh.nrows
     n_cols_list = []
     if columns_par == None:
-        print "> Columns parameter no specified. Going to obtain data from ALL columns..."
+        print "> Columns parameter not specified. Going to obtain data from ALL columns..."
         n_cols_list = range(0,n_total_cols)
     else:
         for c in columns_par.split(','):
