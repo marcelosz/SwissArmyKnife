@@ -38,7 +38,7 @@ def main(argv):
        """))
     parser.add_argument("-c", "--columns", help="List of columns (letters separated by commas) to obtain from the XLS file. If not specified, all columns will be used.")
     parser.add_argument("-d", "--delimiter", help="Delimiter (comma, semi-comma, pipe...).", required=True)
-    parser.add_argument("-l", "--loglevel", help="Logging level (DEBUG, INFO or ERROR)")
+    parser.add_argument("-l", "--loglevel", help="Logging level (DEBUG, INFO or ERROR). If not set, defaults to ERROR.")
     parser.add_argument("infile", help="Input XLS file.", metavar='INFILE')
     parser.add_argument("outfile", help="Output CSV file.", metavar='OUTFILE')
     args = parser.parse_args()
